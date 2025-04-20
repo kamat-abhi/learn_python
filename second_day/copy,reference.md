@@ -25,3 +25,21 @@
 - repr() => Gives a detailed or unambiguous string version of an object
 
 - x << 2, x is left shifted by2 
+
+#  String
+
+-  string is immutable
+
+- string_name[start:end:hoping];
+- string_name.strip() => it remove the spaces from   starting and from ending.
+- string_name.replace("string", "your_string") => it replace string to your string in string
+
+- string_name.split(); => it convert string into array, it split the string on the basis of your given data and store it in array
+- string_name.find("string") 
+- string_name.count("string")
+- Placeholder 
+  - string_name.format() => it serach {} this paranthesis if found this replace it with your value
+
+
+- "".join(list_name) => it convert list to string
+- len(string_name) => find length
