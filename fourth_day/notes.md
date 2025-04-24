@@ -9,5 +9,14 @@
 
 - for exit the program use => exit()
 
-# loops
+# iteration
 
+- iteration tool
+  - (for, comprehension)
+- iterable object => (lists, file)  its return __next__
+- in pyhton file is also a iterable object
+- in python we can make itarable using iter()
+
+- # when we store a file inside a veriable and take its reference, then it is an iterable object in itself, but if you have given the name of a list in a memory reference, then it is not its itersted object, it is just a reference to that actual object.
+
+- dist is itterable
