@@ -41,3 +41,17 @@ print(numbers[where_indices])
 condition_array = np.where(numbers>5, numbers*5, numbers);
 print(condition_array);
 
+# Adding and removing elements
+arr1 = np.array([1,2,3,])
+arr2 = np.array([4,5,6])
+
+combined = np.concatenate((arr1, arr2))
+print(combined)
+
+original = np.array([[1,2], [3,4]])
+new_row = np.array([[5,6]]);
+
+with_new_row = np.vstack((original, new_row)); #add new row
+print(with_new_row);
+with_new_col = np.hstack((original, new_row.T)); #add new column
+print(with_new_col);
